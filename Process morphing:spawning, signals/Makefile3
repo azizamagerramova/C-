@@ -1,0 +1,5 @@
+CC=gcc 
+
+make: multiple.c morph.c isPrime.c
+		$(CC) -o isPrime isPrime.c
+		$(CC) -o multiple multiple.c morph.c
